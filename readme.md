@@ -4,54 +4,27 @@
 
 ![Example](./examples/example.jpg)
 
-**Sample video**
+This color correction script adjusts the red light levels in underwater images and videos.
 
-[![Video](https://img.youtube.com/vi/NEpl41-LMBs/0.jpg)](https://www.youtube.com/watch?v=NEpl41-LMBs)
-
+> ***Warning:** Media files are altered *in-place*; backup orginal data before use!
 
 ### Setup
 ```
 $ pip install -r requirements.txt
 ```
 
-
-### For images
+### Usage
 ```
-$ python correct.py image /my/raw.png /my/corrected.png
+./Color-Correct-Media.py "path/to/media"
+🌊 Underwater Media Color Correction
+🔍 Found:
+📷   Images: 433
+🎞    Videos: 14
+
+✋ Do you want to continue? [Y]es/[N]o: Y
+👌 Correcting color of:
+    Image 𐎚 'P1150048.JPG'            9.0%|█▊                  | 39/433 [00:09<01:27,  4.49image/s]
 ```
-
-### For videos
-```
-$ python correct.py video /my/raw.mp4 /my/corrected.mp4
-```
-
-## GUI
-You can either download the [desktop softwares](https://bornfree.github.io/dive-color-corrector/) or build one yourself.
-
-![GUI](./examples/gui.jpg)
-
-### Building the GUI
-Uncomment the libraries needed for GUI in `requirements.txt` and re-run `pip install`.
-
-MacOS (via Py2App)
-```
-$ py2applet --make-setup dcc.py
-$ python setup.py py2app
-```
-
-Windows (via PyInstaller)
-```
-$ python -m PyInstaller -n "Dive Color Corrector" -F -w -i .\logo\logo.ico dcc.py
-```
-
-Linux (via PyInstaller)
-```
-$ pyinstaller -n "Dive Color Corrector" -F -w -i ./logo/logo.png dcc.py
-```
-
-Final builds will be available in 'dist' folder
-
-
 
 ### Share
 If this repo was useful, please considering [sharing the word](https://twitter.com/intent/tweet?url=https://github.com/bornfree/dive-color-correction&text=Correct%20your%20dive%20footage%20with%20Python%20#scuba%20#gopro%20#python%20#opencv) on Twitter.
