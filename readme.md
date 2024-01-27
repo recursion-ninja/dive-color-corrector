@@ -19,7 +19,7 @@ $ pip install -r requirements.txt
 🌊 Underwater Media Color Correction
 🔍 Found:
 📷   Images: 433
-🎞    Videos: 14
+🎞   Videos: 14
 
 ✋ Do you want to continue? [Y]es/[N]o: Y
 👌 Correcting color of:
