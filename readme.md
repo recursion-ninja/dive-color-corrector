@@ -6,7 +6,7 @@
 
 This color correction script adjusts the red light levels in underwater images and videos.
 
-  * ***Warning:*** Media files are altered *in-place*; backup orginal data before use!
+  * ⚠️ **Warning:** *Media files are altered **in-place**; backup orginal data before use!*
 
 ### Setup
 ```
